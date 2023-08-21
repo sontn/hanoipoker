@@ -1,0 +1,44 @@
+baseURL: "https://hanoipoker.com"
+languageCode: en-us
+title: Hà Nội Poker
+theme: PaperMod
+paginate: 5
+
+params:
+  env: production
+
+  # profile-mode
+  profileMode:
+    enabled: true # needs to be explicitly set
+    title: "Xin chào! \U0001F44B"
+    subtitle: "**Poker** là một môn bài trí tuệ, giúp người chơi luyện tập thành thục kỹ năng quản trị rủi ro, tư duy theo xác suất và 
+      ra quyết định trong điều kiện không chắc chắn. Với những người chơi Poker chuyên nghiệp, mất rất nhiều năm thành thục để có thể có kỹ năng.
+      Tuy nhiên, với những nhà đầu tư, người giao dịch trong thị trường tài chính, chỉ cần luyện tập 1 năm Poker là có thể nắm vững những điều cơ bản của Poker
+      để có thể bổ trợ cho kỹ năng giao dịch, đầu tư. Có thể nói Poker là một công cụ tuyệt vời không thể bỏ qua với những nhà đầu tư, nhà giao dịch trong thị trường tài chính.
+      Chúc các bạn thành thục kỹ năng Poker để có kết quả tốt trong thị trường. **Good luck!** **HanoiPoker.com**"
+    imageUrl: "img/buymeacoffee/coffee.png"
+    imageWidth: 120
+    imageHeight: 120
+    imageTitle: "Ha Noi Poker"
+
+
+  socialIcons:
+    - name: twitter
+      url: "https://twitter.com/nhagiaodich_com"
+    - name: tiktok
+      url: "https://tiktok.com/@nhagiaodich_com"
+    - name: facebook
+      url: "https://www.facebook.com/nhagiaodichcom"
+    - name: youtube
+      url: "https://www.youtube.com/@nhagiaodich_com"
+
+menu:
+  main:
+    - identifier: about
+      name: Liên kết
+      url: /link/
+      weight: 30
+    - identifier: link
+      name: Buy me a coffee
+      url: /buymeacoffee/
+      weight: 40
